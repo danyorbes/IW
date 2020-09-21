@@ -10,6 +10,7 @@ cars_cascade = cv2.CascadeClassifier('haarcascade_car.xml')
 
 cap = cv2.VideoCapture(0)
 
+
 def detect_cars(frame):
 
     cars = cars_cascade.detectMultiScale(frame, 1.15, 4)

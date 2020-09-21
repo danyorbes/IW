@@ -1,0 +1,26 @@
+PROYECTO DETECCION DE PLACAS
+
+En este proyecto fue esencial instalar anaconda 1.9.12, descargada
+en el siguiente link: 
+https://www.anaconda.com/products/individual#windows
+
+despues de ello recreo un nuevo ambiente con version de python 3.5.6
+
+en este instalamos las siguientes librerias:
+
+- OPEN CV: opencv 3.4.3 conda-forge
+- imutils: imutils 0.5.3
+- numpy: numpy 1.14.2
+- pytesseract: pytesseract 0.3.6
+- webbrowser: es a version que viene por defecto
+
+Para cmd en windows utilicen los sigueintes comandos:
+    1. python -m pip install -U pip // para instalar las herramientas de pip
+    2. conda install -c https://conda.binstar.org/menpo opencv3 //cogera los recursos de la web
+    3. conda install opencv3
+    4. conda install -c clinicalgraphics vtk
+    5. pip install imutils
+    6. conda install -c conda-forge pytesseract
+    7. conda install -c conda-forge/label/cf202003 pytesseract
+
+Con estas librerias ya puede correr el programa
