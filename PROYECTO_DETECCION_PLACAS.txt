@@ -23,4 +23,4 @@ Para cmd en windows utilicen los sigueintes comandos:
     6. conda install -c conda-forge pytesseract
     7. conda install -c conda-forge/label/cf202003 pytesseract
 
-Con estas librerias ya puede correr el programa
+Con estas librerias ya puede correr el programa+d
